@@ -1,4 +1,3 @@
-y
 # Day Of The Given Date
 
 This Python application calculates the day of the week for any given date. 
