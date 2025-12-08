@@ -1,28 +1,6 @@
 
-month_lookup = {
-    1: 13,
-    2: 14,
-    3: 3,
-    4: 4,
-    5: 5,
-    6: 6,
-    7: 7,
-    8: 8,
-    9: 9,
-    10: 10,
-    11: 11,
-    12: 12
-}
-
-day_lookup = {
-    0: "Saturday",
-    1: "Sunday",
-    2: "Monday",
-    3: "Tuesday",
-    4: "Wednesday",
-    5: "Thursday",
-    6: "Friday"
-}
+from day_lookup import day_lookup
+from month_lookup import month_lookup
 
 def get_date_info():
     date = input ("Enter a date (DD/MM/YYYY): ")
