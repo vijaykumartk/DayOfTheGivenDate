@@ -52,10 +52,10 @@ def validate_date(day, month, year):
     return True
 
 def calculate_day_of_week(day, month, year):
-    q = int(day)
-    m = int(month_lookup[month])
-    k = int(year % 100)
-    j = int(year // 100)
+    q = day
+    m = month_lookup[month]
+    k = year % 100
+    j = year // 100
     day_of_week = q + ((13 * (m + 1)) // 5) + k + (k // 4) + (j // 4) + (5 * j)
     return day_of_week
 
