@@ -3,7 +3,7 @@
 This Python application calculates the day of the week for any given date. 
 
 ## Features
-- Input any date in the format YYYY-MM-DD.
+- Input any date in the format DD-MM-YYYY.
 - Outputs the corresponding day of the week.
 
 ## Installation
