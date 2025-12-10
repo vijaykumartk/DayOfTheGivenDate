@@ -1,5 +1,5 @@
-from day_lookup import day_lookup
-from month_lookup import month_lookup
+from utilities.day_lookup import day_lookup
+from utilities.month_lookup import month_lookup
 
 def validate_date(day, month, year):
     if month < 1 or month > 12:
